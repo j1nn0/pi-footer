@@ -1,3 +1,14 @@
+> [!IMPORTANT]
+> This repository has moved to the [`j1nn0/pi-extensions`](https://github.com/j1nn0/pi-extensions) monorepo.
+>
+> Active development, issues, and releases are now maintained at
+> [`packages/pi-footer`](https://github.com/j1nn0/pi-extensions/tree/main/packages/pi-footer).
+>
+> The npm package name has not changed:
+> `pi install npm:@j1nn0/pi-footer`
+>
+> This standalone repository is archived and kept for historical reference.
+
 # @j1nn0/pi-footer
 
 A Pi extension that replaces Pi's default footer with a compact two-line status
@@ -24,12 +35,6 @@ deepseek-v4.1-flash · max · think ON │ ctx ████░░░░░░ 41
 
 ```bash
 pi install npm:@j1nn0/pi-footer
-```
-
-Or install the latest `main` from GitHub:
-
-```bash
-pi install git:github.com/j1nn0/pi-footer
 ```
 
 To try it for a single session from a local checkout:
